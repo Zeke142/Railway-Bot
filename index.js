@@ -13,7 +13,7 @@ app.post("/chat", async (req, res) => {
       "https://api.openai.com/v1/chat/completions",
       {
         model: "gpt-4",
-        messages: [{ role: "user", content: userMessage }],
+        messages: [{ role: "user", content: userMessage }]
       },
       {
         headers: {
